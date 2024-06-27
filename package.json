@@ -3,6 +3,7 @@
 	"module": "index.ts",
 	"type": "module",
 	"sideEffects": false,
+	"workspaces": ["docs"],
 	"devDependencies": {
 		"@biomejs/biome": "1.8.2",
 		"@commitlint/cli": "19.3.0",
