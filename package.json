@@ -1,0 +1,23 @@
+{
+  "name": "iter-x",
+  "module": "index.ts",
+  "type": "module",
+  "sideEffects": false,
+  "devDependencies": {
+    "@biomejs/biome": "1.8.2",
+    "@microsoft/api-extractor": "7.47.0",
+    "@tsconfig/bun": "^1.0.6",
+    "@types/bun": "latest",
+    "tsup": "^8.1.0",
+    "typescript": "5.5.2",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "bun@1.1.17",
+  "scripts": {
+    "build": "tsup && api-extractor run --local --verbose",
+    "test": "vitest"
+  }
+}
