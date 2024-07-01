@@ -2,11 +2,7 @@
 	"$schema": "https://unpkg.com/release-it/schema/release-it.json",
 	"git": {
 		"commitMessage": "chore(release): v${version}",
-		"tagName": "v${version}",
-		"push": true
-	},
-	"npm": {
-		"publish": true
+		"tagName": "v${version}"
 	},
 	"plugins": {
 		"@release-it/conventional-changelog": {
@@ -19,8 +15,11 @@
 		"releaseName": "Release ${version}",
 		"tokenRef": "GITHUB_TOKEN"
 	},
+	"npm": {
+		"publish": true
+	},
 	"hooks": {
-		"before:init": ["bun run test"],
-		"after:bump": "bun run build"
+		"before:init": ["git pull"],
+		"after:bump": "bunx auto-changelog -p"
 	}
 }

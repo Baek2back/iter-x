@@ -6,14 +6,18 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout source code
+        uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: 20
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-      - run: bun ci
+      - name: Initialize Git user
+        run:
+          git config --global user.email "dumbuk12@naver.com"
+          git config --global user.name "Release workflow"
       - run: bun run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
