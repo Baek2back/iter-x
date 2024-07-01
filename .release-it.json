@@ -1,0 +1,13 @@
+{
+	"$schema": "https://unpkg.com/release-it/schema/release-it.json",
+	"git": {
+		"commitMessage": "chore: release v${version}"
+	},
+	"github": {
+		"release": true
+	},
+	"hooks": {
+		"before:init": ["git pull"],
+		"after:bump": "bunx auto-changelog -p"
+	}
+}
