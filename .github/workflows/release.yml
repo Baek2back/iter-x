@@ -18,7 +18,9 @@ jobs:
         run: |
           git config --global user.email "dumbuk12@naver.com"
           git config --global user.name "Release workflow"
-      - run: bun run release
+      - run: |
+          bun install
+          bun run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
