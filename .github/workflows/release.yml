@@ -15,7 +15,7 @@ jobs:
         with:
           bun-version: latest
       - name: Initialize Git user
-        run:
+        run: |
           git config --global user.email "dumbuk12@naver.com"
           git config --global user.name "Release workflow"
       - run: bun run release
