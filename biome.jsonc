@@ -8,5 +8,12 @@
 		"rules": {
 			"recommended": true
 		}
-	}
+	},
+	"overrides": [
+		{
+			"formatter": {
+				"indentStyle": "space"
+			}
+		}
+	]
 }

@@ -11,6 +11,8 @@
 		"@microsoft/api-extractor": "7.47.0",
 		"@tsconfig/bun": "1.0.6",
 		"@types/bun": "latest",
+		"commitizen": "4.3.0",
+		"cz-conventional-changelog": "3.3.0",
 		"lefthook": "1.6.18",
 		"tsup": "8.1.0",
 		"typescript": "5.5.2",
@@ -25,6 +27,12 @@
 		"build": "tsup && api-extractor run --local --verbose",
 		"test": "vitest",
 		"bench": "vitest bench",
-		"publish": "npm publish"
+		"publish": "npm publish",
+		"commit": "cz"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
 	}
 }
