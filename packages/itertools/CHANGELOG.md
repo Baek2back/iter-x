@@ -1,5 +1,12 @@
 # @iter-x/itertools
 
+## 0.1.5
+
+### Patch Changes
+
+- a1d8c99: test for ci
+- e441e75: test for ci
+
 ## 0.1.4
 
 ### Patch Changes
