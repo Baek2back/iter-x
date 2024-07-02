@@ -5,11 +5,11 @@ pre-commit:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc,vue}"
       run: bun biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files} && git update-index --again
 
-# prepare-commit-msg:
-#   commands:
-#     prepare-conventional-commit:
-#       interactive: true
-#       run: exec < /dev/tty && bun run commit prepare --hook || true
+prepare-commit-msg:
+  commands:
+    prepare-conventional-commit:
+      interactive: true
+      run: exec < /dev/tty && bun run commit prepare --hook || true
 
 commit-msg:
   scripts:
