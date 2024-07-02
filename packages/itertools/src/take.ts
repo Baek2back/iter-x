@@ -15,19 +15,19 @@
  *
  */
 export function take<T>(n: number, iterable: Iterable<T>): T[] {
-	return [...itake(n, iterable)];
+  return [...itake(n, iterable)];
 }
 
 export function* itake<T>(
-	n: number,
-	iterable: Iterable<T>,
+  n: number,
+  iterable: Iterable<T>,
 ): IterableIterator<T> {
-	const iterator = iterable[Symbol.iterator]();
+  const iterator = iterable[Symbol.iterator]();
 
-	let count = n;
-	while (count-- > 0) {
-		const iteratorResult = iterator.next();
-		if (iteratorResult.done) return;
-		yield iteratorResult.value;
-	}
+  let count = n;
+  while (count-- > 0) {
+    const iteratorResult = iterator.next();
+    if (iteratorResult.done) return;
+    yield iteratorResult.value;
+  }
 }

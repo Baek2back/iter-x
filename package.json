@@ -1,46 +1,46 @@
 {
-	"name": "@iter-x/root",
-	"version": "0.0.0",
-	"workspaces": ["apps/*", "packages/*"],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Baek2back/iter-x"
-	},
-	"packageManager": "bun@1.1.17",
-	"engines": {
-		"node": ">=20"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.8.2",
-		"@changesets/cli": "2.27.7",
-		"@commitlint/cli": "19.3.0",
-		"@commitlint/config-conventional": "19.2.2",
-		"@types/bun": "latest",
-		"commitizen": "4.3.0",
-		"cz-conventional-changelog": "3.3.0",
-		"lefthook": "1.6.18",
-		"turbo": "latest"
-	},
-	"peerDependencies": {
-		"typescript": "^5.5.2"
-	},
-	"scripts": {
-		"postinstall": "lefthook install",
-		"dev": "turbo run dev",
-		"build": "turbo run build",
-		"start": "turbo run start",
-		"lint": "turbo run lint",
-		"clean": "turbo run clean",
-		"test": "turbo run test",
-		"test:watch": "turbo run test:watch",
-		"changeset": "changeset",
-		"version-packages": "changeset version",
-		"release": "changeset publish",
-		"commit": "cz"
-	},
-	"config": {
-		"commitizen": {
-			"path": "cz-conventional-changelog"
-		}
-	}
+  "name": "@iter-x/root",
+  "version": "0.0.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Baek2back/iter-x"
+  },
+  "packageManager": "bun@1.1.17",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.2",
+    "@changesets/cli": "2.27.7",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@types/bun": "latest",
+    "commitizen": "4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "lefthook": "1.6.18",
+    "turbo": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "scripts": {
+    "postinstall": "lefthook install",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish",
+    "commit": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }

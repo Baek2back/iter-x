@@ -10,9 +10,9 @@
  * ```
  */
 export function* count(start = 0, step = 1): IterableIterator<number> {
-	let n = start;
-	while (true) {
-		yield n;
-		n += step;
-	}
+  let n = start;
+  while (true) {
+    yield n;
+    n += step;
+  }
 }

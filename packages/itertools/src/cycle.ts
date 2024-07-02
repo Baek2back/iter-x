@@ -9,16 +9,16 @@
  * ```
  */
 export function* cycle<T>(iterable: Iterable<T>): IterableIterator<T> {
-	const saved = [];
+  const saved = [];
 
-	for (const element of iterable) {
-		yield element;
-		saved.push(element);
-	}
+  for (const element of iterable) {
+    yield element;
+    saved.push(element);
+  }
 
-	while (saved.length > 0) {
-		for (const element of saved) {
-			yield element;
-		}
-	}
+  while (saved.length > 0) {
+    for (const element of saved) {
+      yield element;
+    }
+  }
 }
