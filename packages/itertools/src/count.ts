@@ -11,7 +11,7 @@
  */
 export function* count(start = 0, step = 1): IterableIterator<number> {
   let n = start;
-  while (true) {
+  for (;;) {
     yield n;
     n += step;
   }
