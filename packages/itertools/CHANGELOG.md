@@ -1,5 +1,11 @@
 # @iter-x/itertools
 
+## 0.1.4
+
+### Patch Changes
+
+- test for ci
+
 ## 0.1.3
 
 ### Patch Changes
