@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { take } from "../more-itertools";
 import { cycle } from "./cycle";
 import { repeat } from "./repeat";
+import { take } from "./take";
 
 describe("cycle", () => {
 	it("cycle with empty list", () => {

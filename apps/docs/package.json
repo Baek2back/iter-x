@@ -1,8 +1,9 @@
 {
-	"name": "docs",
-	"private": true,
+	"name": "@iter-x/docs",
+	"version": "0.0.0",
+	"type": "module",
 	"devDependencies": {
-		"vitepress": "1.2.3"
+		"vitepress": "^1.2.3"
 	},
 	"scripts": {
 		"docs:dev": "vitepress dev",
