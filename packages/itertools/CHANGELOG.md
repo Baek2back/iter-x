@@ -1,5 +1,11 @@
 # @iter-x/itertools
 
+## 0.2.1
+
+### Patch Changes
+
+- 9e048c8: test
+
 ## 0.2.0
 
 ### Minor Changes
