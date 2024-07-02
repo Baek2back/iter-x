@@ -1,5 +1,6 @@
 {
-	"name": "iter-x",
+	"name": "@iter-x/root",
+	"version": "0.0.0",
 	"workspaces": ["apps/*", "packages/*"],
 	"repository": {
 		"type": "git",
@@ -34,7 +35,7 @@
 		"test:watch": "turbo run test:watch",
 		"changeset": "changeset",
 		"version-packages": "changeset version",
-		"release": "turbo build --filter=docs^... && changeset publish",
+		"release": "changeset publish",
 		"commit": "cz"
 	},
 	"config": {

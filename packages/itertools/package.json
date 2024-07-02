@@ -1,10 +1,10 @@
 {
 	"name": "@iter-x/itertools",
-	"version": "0.0.2",
+	"version": "0.1.1",
 	"sideEffects": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Baek2back/iter-x.git",
+		"url": "https://github.com/Baek2back/iter-x",
 		"directory": "/packages/itertools"
 	},
 	"scripts": {
@@ -12,8 +12,7 @@
 		"build": "tsup && api-extractor run --local --verbose",
 		"test": "vitest",
 		"test:watch": "vitest",
-		"bench": "vitest bench",
-		"publish": "npm publish"
+		"bench": "vitest bench"
 	},
 	"devDependencies": {
 		"typescript": "5.5.2",
