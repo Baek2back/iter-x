@@ -1,5 +1,11 @@
 # @iter-x/itertools
 
+## 0.1.3
+
+### Patch Changes
+
+- test pr
+
 ## 0.1.2
 
 ### Patch Changes
