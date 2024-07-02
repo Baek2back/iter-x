@@ -1,5 +1,11 @@
 # @iter-x/itertools
 
+## 0.2.0
+
+### Minor Changes
+
+- df044a4: test
+
 ## 0.1.5
 
 ### Patch Changes
