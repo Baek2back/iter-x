@@ -1,5 +1,11 @@
 # @iter-x/itertools
 
+## 0.2.2
+
+### Patch Changes
+
+- a43158d: implement basic operation of itertools
+
 ## 0.2.1
 
 ### Patch Changes
