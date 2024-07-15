@@ -1,5 +1,11 @@
 # @iter-x/itertools
 
+## 0.2.3
+
+### Patch Changes
+
+- 6d2acd3: implement some operation
+
 ## 0.2.2
 
 ### Patch Changes
