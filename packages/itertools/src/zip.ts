@@ -1,3 +1,5 @@
+import { iter } from "./iter";
+
 /**
  *
  * @example
@@ -11,7 +13,7 @@ export function* zip<T1, T2>(
 ): IterableIterator<[T1, T2]> {
   const { strict = false } = options;
 
-  const [ixs, iys] = [xs[Symbol.iterator](), ys[Symbol.iterator]()];
+  const [ixs, iys] = [iter(xs), iter(ys)];
 
   while (true) {
     const [x, y] = [ixs.next(), iys.next()];

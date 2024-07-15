@@ -1,3 +1,5 @@
+import { iter } from "./iter";
+
 type Reducer<T, U> = (acc: U, item: T) => U;
 
 /**
@@ -14,7 +16,7 @@ export function* accumulate<T, U = T>(
   func: Reducer<T, U>,
   initial?: U,
 ): IterableIterator<U> {
-  const iterator = iterable[Symbol.iterator]();
+  const iterator = iter(iterable);
   let accumulator: U;
 
   if (initial === undefined) {

@@ -1,3 +1,5 @@
+import { iter } from "./iter";
+
 /**
  * @example
  * ```typescript
@@ -15,7 +17,7 @@ export function* batched<T>(
     throw new Error("n must be at least one");
   }
 
-  const iterator = iterable[Symbol.iterator]();
+  const iterator = iter(iterable);
 
   while (true) {
     const batch: T[] = [];

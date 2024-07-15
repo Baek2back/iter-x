@@ -1,3 +1,5 @@
+import { iter } from "./iter";
+
 /**
  * Return first `n` items of the iterable as a list.
  *
@@ -22,7 +24,7 @@ export function* itake<T>(
   n: number,
   iterable: Iterable<T>,
 ): IterableIterator<T> {
-  const iterator = iterable[Symbol.iterator]();
+  const iterator = iter(iterable);
 
   let count = n;
   while (count-- > 0) {
