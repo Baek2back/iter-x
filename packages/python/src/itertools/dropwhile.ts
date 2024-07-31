@@ -1,4 +1,4 @@
-import { iter } from "./iter";
+import { iter } from "../built-in";
 
 /**
  * @example dropwhile((x) => x < 5, [1,4,6,3,8]) // => 6 3 8

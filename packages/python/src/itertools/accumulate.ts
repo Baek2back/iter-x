@@ -1,4 +1,4 @@
-import { iter } from "./iter";
+import { iter } from "../built-in";
 
 type Reducer<T, U> = (acc: U, item: T) => U;
 

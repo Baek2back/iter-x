@@ -1,4 +1,4 @@
-import { flatten } from "./flatten";
+import { flatten } from "../more-itertools";
 
 /**
  * Make an iterator that returns elements from the first iterable until it is exhausted, then proceeds to the next iterable,

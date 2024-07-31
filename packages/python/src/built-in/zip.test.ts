@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { take } from "./take";
+import { take } from "../more-itertools/take";
 import { zip } from "./zip";
 
 describe("zip", () => {

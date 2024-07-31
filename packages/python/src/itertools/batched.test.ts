@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools/take";
 import { batched } from "./batched";
-import { take } from "./take";
 
 describe("batched", () => {
   it("returns remainder in final batch", () => {

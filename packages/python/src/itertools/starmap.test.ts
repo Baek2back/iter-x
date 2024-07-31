@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { starmap } from "./starmap";
-import { take } from "./take";
 
 describe("starmap", () => {
   it("starmap with pre-zipped tuple", () => {

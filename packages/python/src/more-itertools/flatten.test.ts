@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { flatten } from "./flatten";
-import { take } from "./take";
 
 describe("flatten", () => {
   it("return flatten iterables in iterables of iterables", () => {

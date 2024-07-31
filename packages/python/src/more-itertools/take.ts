@@ -1,4 +1,4 @@
-import { iter } from "./iter";
+import { iter } from "../built-in";
 
 /**
  * Return first `n` items of the iterable as a list.

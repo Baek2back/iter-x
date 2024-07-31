@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { filterfalse } from "./filterfalse";
-import { take } from "./take";
 
 describe("filterfalse", () => {
   it("should filter elements predicate return true", () => {

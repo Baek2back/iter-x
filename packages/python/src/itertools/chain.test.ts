@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { chain } from "./chain";
-import { take } from "./take";
 
 describe("concat", () => {
   it("concat two iterables", () => {

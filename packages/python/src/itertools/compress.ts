@@ -1,4 +1,4 @@
-import { zip } from "./zip";
+import { zip } from "../built-in";
 
 /**
  * Compress an iterable by filter out data that is not selected.

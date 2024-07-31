@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { dropwhile } from "./dropwhile";
-import { take } from "./take";
 
 describe("dropwhile", () => {
   it("dropwhile on empty list", () => {

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { accumulate } from "./accumulate";
-import { take } from "./take";
 
 describe("accumulate", () => {
   it("should accumulate values from iterator", () => {

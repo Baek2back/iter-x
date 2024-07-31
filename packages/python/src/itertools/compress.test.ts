@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { compress } from "./compress";
-import { take } from "./take";
 
 describe("compress", () => {
   it("compress on empty list", () => {

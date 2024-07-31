@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { take } from "../more-itertools";
 import { count } from "./count";
-import { take } from "./take";
 
 describe("count", () => {
   it("default counter", () => {
