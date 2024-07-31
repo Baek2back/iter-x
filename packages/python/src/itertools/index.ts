@@ -9,3 +9,4 @@ export * from "./filterfalse";
 export * from "./islice";
 export * from "./repeat";
 export * from "./starmap";
+export * from "./zipLongest";
