@@ -36,7 +36,8 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "publish": "changeset publish",
-    "commit": "cz"
+    "commit": "cz",
+    "docs": "bun run --cwd docs"
   },
   "config": {
     "commitizen": {
