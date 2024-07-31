@@ -1,5 +1,11 @@
 # @iter-x/itertools
 
+## 0.0.1
+
+### Patch Changes
+
+- 79c4b17: rename package to python
+
 ## 0.2.3
 
 ### Patch Changes
