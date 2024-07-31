@@ -1,11 +1,11 @@
 {
-  "name": "@iter-x/itertools",
-  "version": "0.2.3",
+  "name": "@iter-x/python",
+  "version": "0.0.0",
   "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/Baek2back/iter-x",
-    "directory": "/packages/itertools"
+    "directory": "/packages/python"
   },
   "scripts": {
     "dev": "tsup --watch",
@@ -15,10 +15,10 @@
     "bench": "vitest bench"
   },
   "devDependencies": {
-    "typescript": "5.5.2",
-    "vitest": "1.6.0",
-    "tsup": "8.1.0",
+    "typescript": "5.5.4",
+    "vitest": "2.0.4",
+    "tsup": "8.2.3",
     "@microsoft/api-extractor": "7.47.0",
-    "@tsconfig/bun": "1.0.6"
+    "@tsconfig/bun": "1.0.7"
   }
 }
