@@ -1,7 +1,7 @@
 {
   "name": "@iter-x/root",
   "version": "0.0.0",
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": ["apps/*", "packages/*", "docs"],
   "repository": {
     "type": "git",
     "url": "https://github.com/Baek2back/iter-x"
