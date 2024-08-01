@@ -19,6 +19,9 @@
     "coverage": {
       "outputs": []
     },
+    "bench": {
+      "outputs": []
+    },
     "dev": {
       "persistent": true,
       "cache": false
