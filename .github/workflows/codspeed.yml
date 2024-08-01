@@ -17,7 +17,7 @@ jobs:
       - uses: oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7 # v1
       - run: bun install
       - name: Run benchmarks
-        uses: CodSpeedHQ/action@v3
+        uses: CodSpeedHQ/action@ab07afd34cbbb7a1306e8d14b7cc44e029eee37a # v3
         with:
           run: bun run bench
           token: ${{ secrets.CODSPEED_TOKEN }}
