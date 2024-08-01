@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "typescript": "5.5.4",
-    "vitest": "2.0.4",
+    "vitest": "2.0.5",
     "tsup": "8.2.3",
     "@microsoft/api-extractor": "7.47.0",
     "@tsconfig/bun": "1.0.7"
