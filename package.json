@@ -43,5 +43,6 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "trustedDependencies": ["@biomejs/biome"]
 }
