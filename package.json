@@ -33,6 +33,7 @@
     "clean": "turbo run clean",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
+    "coverage": "turbo run coverage",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "publish": "changeset publish",
