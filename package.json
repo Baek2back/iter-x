@@ -13,8 +13,8 @@
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@changesets/cli": "2.27.7",
-    "@commitlint/cli": "19.4.0",
-    "@commitlint/config-conventional": "19.2.2",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
     "@types/bun": "latest",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
