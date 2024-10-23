@@ -18,7 +18,7 @@
     "@types/bun": "latest",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "lefthook": "1.7.14",
+    "lefthook": "1.8.1",
     "turbo": "latest"
   },
   "peerDependencies": {
